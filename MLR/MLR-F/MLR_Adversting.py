@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 file_path = 'Preprocessed/preprocessed_Adversting_data.csv'
 df = pd.read_csv(file_path)
 
-# Define features (X) and target (y)
+# Define features (X) and  target (y)
 X = df.iloc[:, :-1]  # All columns except the last one
 y = df.iloc[:, -1]   # The last column as the target
 
@@ -38,3 +38,4 @@ plt.xlabel("Actual Values")
 plt.ylabel("Predicted Values")
 plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'k--', lw=2)
 plt.show()
+
