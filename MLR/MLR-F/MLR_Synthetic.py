@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 file_path = './Preprocessed/Preprocessed_A1_synthetic.csv'   
 df = pd.read_csv(file_path)
 
-# Features and Target
+# Features and   Target
 X = df.iloc[:, :-1]  # Features
 y = df.iloc[:, -1]   # Target
 
@@ -45,3 +45,4 @@ plt.xlabel("Actual Values")
 plt.ylabel("Predicted Values")
 plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'k--', lw=2)
 plt.show()
+
