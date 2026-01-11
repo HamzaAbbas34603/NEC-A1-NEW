@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 
-# Load Dataset
+# Load Datasets
 file_path = 'Preprocessed/Preprocessed_A1_turbine.csv'  # Adjust path as necessary
 df = pd.read_csv(file_path)
 
