@@ -9,7 +9,7 @@ from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 import matplotlib.pyplot as plt
 
-# Load Dataset
+# Load Datasets
 file_path = 'Preprocessed/Preprocessed_A1_turbine.csv'  # Adjust path as necessary
 df = pd.read_csv(file_path)
 
@@ -71,3 +71,4 @@ plt.xlabel("Epochs")
 plt.ylabel("Loss (MSE)")
 plt.legend()
 plt.show()
+
